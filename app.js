@@ -6,7 +6,7 @@ setTimeout(() => {
 }, 1000)
 
 setTimeout(() => {
-    const div2 = document.querySelector(`timeout-nesting`)
+    const div2 = document.querySelector(`#timeout-nesting`)
     const p2 = document.createElement(`p`)
     p2.innerText = 'One'
     div2.append(p2)
